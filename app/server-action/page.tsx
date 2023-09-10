@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { userInfoAction } from "./actions";
 
-export default function WhoAmIButton() {
+export default function Page() {
   const [name, setName] = useState<string>();
   return (
     <div>
